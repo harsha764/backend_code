@@ -12,4 +12,3 @@ select phpmyadmin button on right top corner to open mysql database
 select the test db 
 click on import from navigation bar
 select the react_project.sql file and import it
-
