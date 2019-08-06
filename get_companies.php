@@ -14,5 +14,4 @@
 		array_push($rows, $result);
 	}
 	echo json_encode($rows);
-	
  ?>
