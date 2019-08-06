@@ -20,6 +20,7 @@
 					}
 					$finaldata = implode(',', $machine_array);
 				}else{
+					$resobj->ifpresent = 'Machine Added Sucessfully';
 					$finaldata = $machine_name;
 				}
 				$sql = mysqli_query($conn,"UPDATE company_details SET machines ='$finaldata' WHERE id='$company_id'");
