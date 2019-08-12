@@ -1,6 +1,5 @@
 <?php 
 	include('connection.php');
-
 	$data = json_decode(file_get_contents("php://input"), TRUE);
 	$name = $data['username'];
 	$pass = md5($data['password']);
